@@ -26,3 +26,4 @@ def test_mock_simular_dois_cenarios(mock_permissao):
     
     mock_permissao.return_value = False
     assert acessar_sistema("pedro") == "Acesso negado"
+    #ola
